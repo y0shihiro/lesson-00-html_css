@@ -7,6 +7,27 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <section class="item item-l item-maindish">
+    <a href="#">
+      <img src="images/image_L_1.jpg" alt="メインディッシュ" class="image">
+      <div class="category">MAIN DISH</div>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </a>
+  </section>
+  <section class="item item-m item-appetizer">
+    <a href="#">
+      <img src="images/image_M_1.jpg" alt="前菜" class="image">
+      <div class="category">APPETIZER</div>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </a>
+  </section>
+  <section class="item item-m item-maindish">
+    <a href="#">
+      <img src="images/image_M_2.jpg" alt="メインディッシュ" class="image">
+      <div class="category">MAIN DISH</div>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </a>
+  </section>
   <section class="item item-maindish">
     <a href="#">
       <img src="images/image_S_1.jpg" alt="メインディッシュ" class="image">
@@ -19,6 +40,13 @@
       <img src="images/image_S_2.jpg" alt="前菜" class="image">
       <div class="category">APPETIZER</div>
       <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+    </a>
+  </section>
+  <section class="item item-m item-breaktime">
+    <a href="#">
+      <img src="images/image_M_3.jpg" alt="おやつの時間" class="image">
+      <div class="category">BREAK TIME</div>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
     </a>
   </section>
   <section class="item item-column">
@@ -63,6 +91,13 @@
       <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
     </a>
   </section>
+  <section class="item item-m item-appetizer">
+    <a href="#">
+      <img src="images/image_M_4.jpg" alt="前菜" class="image">
+      <div class="category">APPETIZER</div>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+    </a>
+  </section>
   <section class="item item-column">
     <a href="#">
       <img src="images/image_S_9.jpg" alt="コラム" class="image">
@@ -79,11 +114,13 @@
   </section>
   <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   <script>
+    // window.onload = function() {
     new Masonry('body', {
       itemSelector: '.item',
       columnWidth: 180,
       gutter: 4
     });
+    // };
   </script>
 </body>
 </html>
