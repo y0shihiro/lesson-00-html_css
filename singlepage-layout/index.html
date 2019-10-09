@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <title>シングルページレイアウト</title>
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header class="header">
     <p class="site-title-sub">Wed designer's portfolio</p>
@@ -21,15 +23,72 @@
     <h2 class="heading">ABOUT ME</h2>
     <p class="about-text">
       はじめまして。日本でWebデザイナーをしています。<br>
-    デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。</p>
+      デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。</p>
     <p class="about-text">
       このサイトは「HTML/CSS モダンコーディング」という書籍のサンプルとして作られた、架空のWebデザイナーのポートフォリオサイトです。<br>
       このサンプルのようなサイトをイチから作る過程を通して、HTMLとCSSの実践的なコーディングノウハウを学ぶことができます。
     </p>
   </section>
-  <section class="works"></section>
+  <section class="works">
+    <h2 class="heading">WORKS</h2>
+    <div class="works-wrapper">
+      <div class="work-box tree">
+        <img src="./images/tree.jpg" alt="制作事例1" class="work-image">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              1つ目の制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール：xxx, xxx, xxx<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box building">
+        <img src="./images/building.jpg" alt="制作事例2" class="work-image">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              2つ目の制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール：xxx, xxx, xxx<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box lake">
+        <img src="./images/lake.jpg" alt="制作事例3" class="work-image">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              3つ目の制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール：xxx, xxx, xxx<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box sky">
+        <img src="./images/sky.jpg" alt="制作事例4" class="work-image">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              4つ目の制作事例が入ります。<br>
+              簡単な説明が入ります。<br>
+              使用ツール：xxx, xxx, xxx<br>
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="skills"></section>
   <section class="contact" id="contact"></section>
   <footer class="footer"></footer>
 </body>
+
 </html>
